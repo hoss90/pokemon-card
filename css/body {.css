@@ -1,0 +1,50 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url("https://www.tunisienumerique.com/wp-content/uploads/2020/03/panoramica-sidi-bou-said.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+  }
+  .wrapper .box {
+    font-family: "Style Script", cursive;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    transform-style: preserve-3d;
+    transform: perspective(800px);
+  }
+  h2 {
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: "Style Script", cursive;
+  }
+  p {
+    color: #fdefef;
+    font-size: 20px;
+    margin: 20px 10px;
+    font-family: "Lobster", cursive;
+  }
+  
